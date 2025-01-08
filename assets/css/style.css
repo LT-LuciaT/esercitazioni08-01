@@ -39,6 +39,9 @@ header {
   header .brand img {
     margin-bottom: 20px;
   }
+  h1 {
+    font-size: 3em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -67,6 +70,10 @@ header {
     position: absolute;
     left: 50%;
     top: 83%;
+  }
+  .child2 {
+    position: absolute;
+    top: -10%
   }
 }
 
@@ -120,6 +127,7 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  text-transform: uppercase;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -303,6 +311,7 @@ button {
   button {
     padding: 15px 30px;
   }
+  
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -333,7 +342,13 @@ aside div p:last-child {
   font-size: 0.8em;
   text-align: right;
 }
-
+.fas.fa-tag {
+  position: absolute;
+  left: 85%;
+  top: 5%;
+  font-size: 50px;
+  opacity: 35%;
+}
 /* FOOTER */
 footer {
   background: rgb(53, 53, 53);
